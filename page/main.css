@@ -1,0 +1,16 @@
+.suggestions {
+  border-bottom: 1px solid #e1e4e8;
+  padding-bottom: 16px;
+}
+
+.suggestions .hidden {
+  display: none;
+}
+
+[data-add-label] {
+  cursor: pointer;
+}
+
+[data-add-label]:hover {
+  background: #F5F5F5;
+}

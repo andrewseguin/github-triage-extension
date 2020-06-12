@@ -1,0 +1,42 @@
+.priorities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priority {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-weight: bold;
+}
+
+/* Priority 0 */
+.priority.p0:active {
+  color: white;
+  background: #e11d21;
+}
+
+
+/* Priority 1 */
+.priority.p1:active {
+  color: white;
+  background: #d93f0b;
+}
+
+
+/* Priority 2 */
+.priority.p2:active {
+  background: #f9bda4;
+}
+
+
+/* Priority 3 */
+.priority.p3:active {
+  background: #fad8c7;
+}
+
+
+/* Priority 4 & 5 */
+.priority.p4:active, .priority.p5:active {
+  background: #fef2c0;
+}
